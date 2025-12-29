@@ -9,7 +9,7 @@ docker compose up -d
 ## 도커 접근
 
 ```
-docker exec -it flask-unsign-docker bash
+docker exec -it flask-unsign bash
 ```
 
 ## Flask 세션 디코딩
