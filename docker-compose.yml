@@ -1,7 +1,7 @@
 services:
     flask-unsign:
         build: .
-        container_name: flask-unsign-docker
+        container_name: flask-unsign
         working_dir: /app
         tty: true
         stdin_open: true
