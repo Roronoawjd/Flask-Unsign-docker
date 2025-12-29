@@ -20,9 +20,16 @@ flask-unsign --decode --cookie "<Flask 세션 쿠키 값>"
 
 ## Secret Key 크랙 (무작위 대입 공격)
 
+wordlist 크랙
 ```
 flask-unsign --wordlist "<wordlist 파일 경로>" --unsign --cookie "<Flask 세션 쿠키 값>" --no-literal-eval
 ```
+
+기본 크랙
+```
+flask-unsign --unsign --cookie "<Flask 세션 쿠키 값>"
+```
+
 
 ## 새로운 세션 생성 (Re-Signing)
 
